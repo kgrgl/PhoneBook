@@ -15,21 +15,21 @@ namespace PhoneBook.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.8")
+                .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("ProductVersion", "5.0.2");
 
             modelBuilder.Entity("PhoneBook.Models.Contacts", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .UseIdentityColumn();
 
                     b.Property<string>("ContactText")
                         .IsRequired()
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("ContactType")
                         .HasColumnType("int");
@@ -49,19 +49,22 @@ namespace PhoneBook.Migrations
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .UseIdentityColumn();
 
-                    b.Property<int>("Ad")
-                        .HasColumnType("int")
-                        .HasMaxLength(50);
+                    b.Property<string>("Ad")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
-                    b.Property<int>("Firma")
-                        .HasColumnType("int")
-                        .HasMaxLength(50);
+                    b.Property<string>("Firma")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
-                    b.Property<int>("Soyad")
-                        .HasColumnType("int")
-                        .HasMaxLength(50);
+                    b.Property<string>("Soyad")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<Guid>("UUID")
                         .HasColumnType("uniqueidentifier");
@@ -76,6 +79,13 @@ namespace PhoneBook.Migrations
                     b.HasOne("PhoneBook.Models.Persons", "Match")
                         .WithMany("contacts")
                         .HasForeignKey("MatchID");
+
+                    b.Navigation("Match");
+                });
+
+            modelBuilder.Entity("PhoneBook.Models.Persons", b =>
+                {
+                    b.Navigation("contacts");
                 });
 #pragma warning restore 612, 618
         }

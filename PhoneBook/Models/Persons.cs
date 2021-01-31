@@ -13,13 +13,13 @@ namespace PhoneBook.Models
         public Guid UUID { get; set; }
         [Required]
         [MaxLength(50, ErrorMessage = "Kişi Adı 50 karakterden fazla olamaz!")]
-        public int Ad { get; set; }
+        public string Ad { get; set; }
         [Required]
         [MaxLength(50, ErrorMessage = "Kişi Soyadı 50 karakterden fazla olamaz!")]
-        public int Soyad { get; set; }
+        public string Soyad { get; set; }
         [Required]
         [MaxLength(50, ErrorMessage = "Kişi Firma Bilgisi 50 karakterden fazla olamaz!")]
-        public int Firma { get; set; }
+        public string Firma { get; set; }
         public ICollection<Contacts> contacts { get; set; }
     }
 }
