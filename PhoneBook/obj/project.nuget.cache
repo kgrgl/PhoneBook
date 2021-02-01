@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7kI0P6iE/ktL5RQEYQerjT0zCXdvm0nG3Nk/DmEq+a6zNEbXA77nHz+pORz8bN+riaH1I1Z4CPO2f6GxaIBlsw==",
+  "dgSpecHash": "0Ai9FwXLDMNazO0ejM8rfT3S4z2z0hoxVhJkeilXKLN/8TTDjVmMzoBK7aVZqbHcLfVp1mOv14clqsGMeXZ5dA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kgorg\\git-source\\PhoneBook\\PhoneBook\\PhoneBook.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kgorg\\.nuget\\packages\\geocoordinate.netcore\\1.0.0.1\\geocoordinate.netcore.1.0.0.1.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

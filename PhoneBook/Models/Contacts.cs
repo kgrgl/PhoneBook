@@ -11,11 +11,11 @@ namespace PhoneBook.Models
 
         [Key]
         public int ID { get; set; }
-        public enum ContactTypes
+        public enum ContactTypes : int
         {
-            Phone,
-            Mail,
-            Location
+            Phone = 1,
+            Mail = 2,
+            Location = 3
         }
         [Required]
         [MaxLength(50, ErrorMessage = "İletişim Verisi 50 karakterden fazla olamaz!")]

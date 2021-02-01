@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "GeoCoordinate.NetCore/1.0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -2893,6 +2902,19 @@
     }
   },
   "libraries": {
+    "GeoCoordinate.NetCore/1.0.0.1": {
+      "sha512": "VrR5MLkh0u2qka79JcQ/GUrgHwGidayCA7nKy2430qYX/JHdrHLgwp1MuBTSsygWs0s2V6GQ0Hp8HUMatHiWFw==",
+      "type": "package",
+      "path": "geocoordinate.netcore/1.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geocoordinate.netcore.1.0.0.1.nupkg.sha512",
+        "geocoordinate.netcore.nuspec",
+        "lib/netstandard1.6/GeoCoordinate.NetCore.deps.json",
+        "lib/netstandard1.6/GeoCoordinate.NetCore.dll"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -9316,6 +9338,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "GeoCoordinate.NetCore >= 1.0.0.1",
       "Microsoft.EntityFrameworkCore >= 5.0.2",
       "Microsoft.EntityFrameworkCore.Abstractions >= 5.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.2",
@@ -9371,6 +9394,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "GeoCoordinate.NetCore": {
+            "target": "Package",
+            "version": "[1.0.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.2, )"

@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using GeoCoordinatePortable;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PhoneBook.Models;
 
+
 namespace PhoneBook.Controllers
 {
+
+
     [Route("[controller]")]
     [ApiController]
     public class PersonsController : Controller
@@ -22,11 +26,30 @@ namespace PhoneBook.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
+
             if (_context.Persons.Count() == 0)
             {
                 return NotFound("Kişi Listesi Bulunamadı");
             }
-            return Ok(await _context.Persons.ToListAsync());
+
+            return Ok(await _context.Persons.Include(u => u.contacts).ToListAsync());
+        }
+        [HttpGet("GetPersonByLocation")]
+        public async Task<IActionResult> GetPersonByLocation([FromQuery] string ltd, [FromQuery] string lgt)
+        {
+            List<Persons> nList = _context.Persons.Include(u => u.contacts).ToList();
+            List<PersonInfoView> results = (from p in nList
+                                            join ps in _context.Contacts on p.ID equals ps.Match.ID
+                                            where (int)ps.ContactType == 3
+                                            select new PersonInfoView()
+                                            {
+                                                Ad = p.Ad,
+                                                Soyad = p.Soyad,
+                                                Firma = p.Firma,
+                                                pLtd = ps.ContactText.Split(',', StringSplitOptions.None)[0].ToString().Trim(),
+                                                pLgt = ps.ContactText.Split(',', StringSplitOptions.None)[1].ToString().Trim()
+                                            }).Where(x => x.pLtd == ltd).Where(x => x.pLgt == lgt).ToList();
+            return Ok(results);
         }
         [HttpGet("GetPerson")]
         public async Task<IActionResult> Details(int? id)
@@ -51,7 +74,6 @@ namespace PhoneBook.Controllers
         {
             _context.Add(persons);
             await _context.SaveChangesAsync();
-            //return RedirectToAction(nameof(Index));
             return Ok(persons);
         }
 
@@ -95,5 +117,14 @@ namespace PhoneBook.Controllers
         {
             return _context.Persons.Any(e => e.ID == id);
         }
+        public class PersonInfoView
+        {
+            public string Ad { get; set; }
+            public string Soyad { get; set; }
+            public string Firma { get; set; }
+            public string pLtd { get; set; }
+            public string pLgt { get; set; }
+        }
     }
+
 }

@@ -25,6 +25,7 @@
     ".NETCoreApp,Version=v5.0": {
       "PhoneBook/1.0.0": {
         "dependencies": {
+          "GeoCoordinate.NetCore": "1.0.0.1",
           "Microsoft.EntityFrameworkCore": "5.0.2",
           "Microsoft.EntityFrameworkCore.Abstractions": "5.0.2",
           "Microsoft.EntityFrameworkCore.Design": "5.0.2",
@@ -324,6 +325,17 @@
         },
         "compile": {
           "PhoneBook.dll": {}
+        }
+      },
+      "GeoCoordinate.NetCore/1.0.0.1": {
+        "runtime": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {
+            "assemblyVersion": "1.0.0.1",
+            "fileVersion": "1.0.0.1"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -4094,6 +4106,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "GeoCoordinate.NetCore/1.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VrR5MLkh0u2qka79JcQ/GUrgHwGidayCA7nKy2430qYX/JHdrHLgwp1MuBTSsygWs0s2V6GQ0Hp8HUMatHiWFw==",
+      "path": "geocoordinate.netcore/1.0.0.1",
+      "hashPath": "geocoordinate.netcore.1.0.0.1.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
