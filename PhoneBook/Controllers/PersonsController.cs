@@ -20,16 +20,24 @@ namespace PhoneBook.Controllers
             _context = context;
         }
         [HttpGet]
-        public async Task<List<Persons>> Index()
+        public async Task<IActionResult> Index()
         {
-            return await _context.Persons.ToListAsync();
+            if (_context.Persons.Count() == 0)
+            {
+                return NotFound("Liste bulunamadı");
+            }
+            return Ok(await _context.Persons.ToListAsync());
         }
-
-        public async Task<Persons> Details(int? id)
+        [HttpGet("GetPerson")]
+        public async Task<IActionResult> Details(int? id)
         {
             var persons = await _context.Persons
                 .FirstOrDefaultAsync(m => m.ID == id);
-            return persons;
+            if (persons==null)
+            {
+                return NotFound("Kişi Bulunamadı");
+            }
+            return Ok(persons);
         }
 
         private bool PersonsExists(int id)
