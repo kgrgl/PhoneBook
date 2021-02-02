@@ -35,7 +35,7 @@ namespace PhoneBook.Controllers
             return Ok(await _context.Persons.Include(u => u.contacts).ToListAsync());
         }
         [HttpGet("GetPersonByLocation")]
-        public async Task<IActionResult> GetPersonByLocation([FromQuery] string ltd, [FromQuery] string lgt)
+        public async Task<IActionResult> GetPersonCountByLocation([FromQuery] string ltd, [FromQuery] string lgt)
         {
             List<Persons> nList = _context.Persons.Include(u => u.contacts).ToList();
             List<PersonInfoView> results = (from p in nList
@@ -51,6 +51,37 @@ namespace PhoneBook.Controllers
                                             }).Where(x => x.pLtd == ltd).Where(x => x.pLgt == lgt).ToList();
             return Ok(results);
         }
+        [HttpGet("GetLocaitonsWithPersonCount")]
+        public async Task<IActionResult> GetLocaitonsWithPersonCount()
+        {
+            List<LocationInfoView> listResult = (from c in _context.Contacts
+                                                 join p in _context.Persons on c.Match.ID equals p.ID
+                                                 where (int)c.ContactType == 3
+                                                 orderby c.ID
+                                                 select new LocationInfoView
+                                                 {
+                                                     locationPoint = c.ContactText,
+                                                     personCount = (from pt in _context.Contacts
+                                                                    where pt.ContactText == c.ContactText
+                                                                    select pt).Count(),
+                                                     phoneCount = (from pk in (from p in _context.Persons.Include(u => u.contacts)
+                                                                               join pt in _context.Contacts on p.ID equals pt.Match.ID
+                                                                               where (int)pt.ContactType == 3
+                                                                               where pt.ContactText == c.ContactText
+                                                                               select p)
+                                                                   join pr in _context.Contacts on pk.ID equals pr.Match.ID
+                                                                   where (int)pr.ContactType == 1
+                                                                   select pk).Count(),
+                                                     kisiler = (from p in _context.Persons.Include(u => u.contacts)
+                                                                join pt in _context.Contacts on p.ID equals pt.Match.ID
+                                                                where (int)pt.ContactType == 3
+                                                                where pt.ContactText == c.ContactText
+                                                                select p).ToList()
+
+                                                 }).ToList();
+            return Ok(listResult);
+        }
+
         [HttpGet("GetPerson")]
         public async Task<IActionResult> Details(int? id)
         {
@@ -125,6 +156,14 @@ namespace PhoneBook.Controllers
             public string pLtd { get; set; }
             public string pLgt { get; set; }
         }
+        public class LocationInfoView
+        {
+            public string locationPoint { get; set; }
+            public int personCount { get; set; }
+            public int phoneCount { get; set; }
+            public List<Persons> kisiler { get; set; }
+        }
+
     }
 
 }
