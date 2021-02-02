@@ -1,6 +1,6 @@
 # PhoneBook
 
-PhoneBook is a .Net Core Project for simple book for your contacts with several contact types (phone, mail and location).
+PhoneBook is a .Net Core Project for simple book to your contacts with several contact types (phone, mail and location).
 You can save multiple contact types for your records.
 
 ## Usage
