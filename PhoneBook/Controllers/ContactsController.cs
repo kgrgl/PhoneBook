@@ -20,16 +20,16 @@ namespace PhoneBook.Controllers
         {
             _context = context;
         }
-        [HttpGet, ActionName("GetContacts")]
+        [HttpGet("GetContacts")]
         public async Task<IActionResult> Index()
         {
             if (_context.Contacts.Count() == 0)
             {
                 return NotFound("İletişim Bilgileri Bulunamadı");
             }
-            return Ok(await _context.Contacts.ToListAsync());
+            return Ok(await _context.Contacts.Include(u => u.Match).ToListAsync());
         }
-        [HttpGet, ActionName("GetContact")]
+        [HttpGet("GetContact")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -37,7 +37,7 @@ namespace PhoneBook.Controllers
                 return NotFound("Lütfen Parametre Gönderin!");
             }
 
-            var contacts = await _context.Contacts
+            var contacts = await _context.Contacts.Include(u => u.Match)
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (contacts == null)
             {
@@ -48,7 +48,7 @@ namespace PhoneBook.Controllers
         }
 
         [HttpPost("Insert")]
-        public async Task<IActionResult> Create([Bind("ID,ContactText,ContactType")] Contacts contacts)
+        public async Task<IActionResult> Create(Contacts contacts)
         {
             if (contacts.ContactType == Contacts.ContactTypes.Location)
             {
@@ -71,7 +71,7 @@ namespace PhoneBook.Controllers
         }
 
         [HttpPost("Update")]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,ContactText,ContactType")] Contacts contacts)
+        public async Task<IActionResult> Edit(int id, Contacts contacts)
         {
             if (id != contacts.ID)
             {
