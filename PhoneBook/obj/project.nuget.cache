@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0Ai9FwXLDMNazO0ejM8rfT3S4z2z0hoxVhJkeilXKLN/8TTDjVmMzoBK7aVZqbHcLfVp1mOv14clqsGMeXZ5dA==",
+  "dgSpecHash": "FRCWwovfuQjLwcMegkEUHQRyOb1j6Anr6CjmykQ+YWYjY9cpGeEInMxGdD6yjHu5mzwccyLEb4eQvCIlYKLEQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\kgorg\\git-source\\PhoneBook\\PhoneBook\\PhoneBook.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\5.0.1\\microsoft.visualstudio.web.codegeneration.5.0.1.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\5.0.1\\microsoft.visualstudio.web.codegeneration.contracts.5.0.1.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\5.0.1\\microsoft.visualstudio.web.codegeneration.core.5.0.1.nupkg.sha512",
