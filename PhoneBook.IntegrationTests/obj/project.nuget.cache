@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PPZZQT+AiQgVv4ob7ojn2CNuiSIZjLX08y7e11CwLzZcZogPVRuUiNqbKFiPAI5XM7x23f8VeK47b5vRyBl3uw==",
+  "dgSpecHash": "IdusLY6CjGd1/Ug+wxjRvnTxW8inYasq7mqaLlcQIGzTQyzNx+/z4e9cFZaQlA7xJbyZfCJV2AlTk7OiIMK8CQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kgorg\\git-source\\PhoneBook\\PhoneBook.IntegrationTests\\PhoneBook.IntegrationTests.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
+    "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.aspnetcore.testhost\\5.0.2\\microsoft.aspnetcore.testhost.5.0.2.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0\\microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
@@ -129,6 +130,7 @@
     "C:\\Users\\kgorg\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\kgorg\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",

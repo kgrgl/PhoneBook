@@ -21,7 +21,7 @@ namespace PhoneBook.UnitTests
             using (var inMemoryContext = new PhoneDbContext(options))
             {
                 var service = new PhoneBook.Controllers.ContactsController(inMemoryContext);
-                await service.Create(new Contacts { ContactType = Contacts.ContactTypes.Location, ContactText = "asdfasdf,fasdfasdf" });
+                await service.Create(new Contacts { ContactType = Contacts.ContactTypes.Location, ContactText = "30,40" });
             }
             using (var inMemoryContext = new PhoneDbContext(options))
             {
