@@ -9431,11 +9431,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kgorg\\git-source\\PhoneBook\\PhoneBook.csproj",
+      "projectUniqueName": "C:\\Users\\kgorg\\git-source\\PhoneBook\\PhoneBook\\PhoneBook.csproj",
       "projectName": "PhoneBook",
-      "projectPath": "C:\\Users\\kgorg\\git-source\\PhoneBook\\PhoneBook.csproj",
+      "projectPath": "C:\\Users\\kgorg\\git-source\\PhoneBook\\PhoneBook\\PhoneBook.csproj",
       "packagesPath": "C:\\Users\\kgorg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kgorg\\git-source\\PhoneBook\\obj\\",
+      "outputPath": "C:\\Users\\kgorg\\git-source\\PhoneBook\\PhoneBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kgorg\\AppData\\Roaming\\NuGet\\NuGet.Config",

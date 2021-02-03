@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/rRXUBZMD7pw2edRF7tlh331MX3nBkxd3bLFvN3Q91oKvCsTxswXYFpSYAQk1lsB62v11KeItiGCgI3xJbwa+Q==",
+  "dgSpecHash": "FRCWwovfuQjLwcMegkEUHQRyOb1j6Anr6CjmykQ+YWYjY9cpGeEInMxGdD6yjHu5mzwccyLEb4eQvCIlYKLEQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kgorg\\git-source\\PhoneBook\\PhoneBook.csproj",
+  "projectFilePath": "C:\\Users\\kgorg\\git-source\\PhoneBook\\PhoneBook\\PhoneBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kgorg\\.nuget\\packages\\geocoordinate.netcore\\1.0.0.1\\geocoordinate.netcore.1.0.0.1.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
