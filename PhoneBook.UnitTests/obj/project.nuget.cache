@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bil2Pj8FF+TGdL1Mual7ZZZq6ildOgwcrx6DZCk/5VA24a9Vd+/ALs7fOI6Gy84QAq//Vr7kwcE9w9WFuSSXdA==",
+  "dgSpecHash": "pZoFYyWF3WamQQlDTmEyL/J1HLcdGUmwGAHU71EaFpzoW741hX2Z21quM7xsBJRwLhnnQAa/l1yHXZZ9Azs3SA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kgorg\\git-source\\PhoneBook\\PhoneBook.UnitTests\\PhoneBook.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.2\\microsoft.entityframeworkcore.5.0.2.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.2\\microsoft.entityframeworkcore.abstractions.5.0.2.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.2\\microsoft.entityframeworkcore.analyzers.5.0.2.nupkg.sha512",
+    "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.2\\microsoft.entityframeworkcore.inmemory.5.0.2.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.2\\microsoft.entityframeworkcore.relational.5.0.2.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.entityframeworkcore.relational.design\\1.1.6\\microsoft.entityframeworkcore.relational.design.1.1.6.nupkg.sha512",
     "C:\\Users\\kgorg\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.2\\microsoft.entityframeworkcore.sqlite.5.0.2.nupkg.sha512",

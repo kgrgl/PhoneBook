@@ -127,18 +127,17 @@ namespace PhoneBook.Controllers
         }
         private bool ValidateLocationValues(string pointValue)
         {
-            bool pointResult = false;
+            bool pointResult = true;
             double price;
             try
             {
                 string[] values = pointValue.Split(',');
-                if (values.Length > 2)
+                if (!(values.Length == 2))
                     pointResult = false;
                 else if (!Double.TryParse(values[0], out price))
                     pointResult = false;
                 else if (!Double.TryParse(values[1], out price))
                     pointResult = false;
-                return true;
             }
             catch (Exception)
             {
