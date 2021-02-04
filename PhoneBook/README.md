@@ -1,7 +1,21 @@
 # PhoneBook
 
 PhoneBook is a .Net Core Project for simple book to your contacts with several contact types (phone, mail and location).
-You can save multiple contact types for your records.
+You can save multiple contact types for your records. 
+
+## Technologies
+
+* .NET 5.0 (upgradeed for Ocelot 17.0.0)
+
+* Docker File
+
+* Ocelot 17.0.0
+
+* .Net FrameWork Entity
+
+* xUnit (for Unit Tsts and Integration Test)
+
+
 
 ## Usage
 
