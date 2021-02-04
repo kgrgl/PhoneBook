@@ -157,7 +157,6 @@ C:\Users\kgorg\git-source\PhoneBook\PhoneBook\obj\Debug\net5.0\PhoneBook.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook\obj\Debug\net5.0\ref\PhoneBook.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook\obj\Debug\net5.0\PhoneBook.pdb
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook\obj\Debug\net5.0\PhoneBook.genruntimeconfig.cache
-C:\Users\kgorg\git-source\PhoneBook\PhoneBook\obj\Debug\net5.0\PhoneBook.csprojAssemblyReference.cache
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook\bin\Debug\net5.0\publish\CodeCoverage\CodeCoverage.config
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook\bin\Debug\net5.0\publish\web.config
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook\bin\Debug\net5.0\publish\ApiGateaway.deps.json

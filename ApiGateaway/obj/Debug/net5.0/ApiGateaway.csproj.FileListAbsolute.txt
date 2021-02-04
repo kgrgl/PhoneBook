@@ -17,7 +17,6 @@ C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\Microsoft.Exten
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\Ocelot.dll
-C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.csprojAssemblyReference.cache
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.AssemblyInfoInputs.cache
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.AssemblyInfo.cs
