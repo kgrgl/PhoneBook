@@ -1,5 +1,7 @@
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\appsettings.json
+C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\ocelot.dev.json
+C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\ocelot.json
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\ApiGateaway.exe
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\ApiGateaway.deps.json
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\ApiGateaway.runtimeconfig.json
@@ -15,6 +17,7 @@ C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\Microsoft.Exten
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\Ocelot.dll
+C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.csprojAssemblyReference.cache
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.AssemblyInfoInputs.cache
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.AssemblyInfo.cs
@@ -30,6 +33,3 @@ C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.dll
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ref\ApiGateaway.dll
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.pdb
 C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.genruntimeconfig.cache
-C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\ocelot.dev.json
-C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\bin\Debug\net5.0\ocelot.json
-C:\Users\kgorg\git-source\PhoneBook\ApiGateaway\obj\Debug\net5.0\ApiGateaway.csprojAssemblyReference.cache

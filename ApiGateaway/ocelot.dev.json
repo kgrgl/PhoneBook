@@ -9,10 +9,8 @@
           "Port": 44344
         }
       ],
-      "UpstreamPathTemplate": "/Persons"
+      "UpstreamPathTemplate": "/Persons",
       "UpstreamHttpMethod": [ "Get" ]
-
-
     }
   ],
   "GlobalConfiguration": {

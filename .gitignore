@@ -9,3 +9,8 @@ PhoneBook/bld/
 PhoneBook/[Bb]in/
 PhoneBook/[Oo]bj/
 PhoneBook/results/
+**/bin/Debug/
+**/bin/Release/
+**/[Oo]bj/
+**/obj/
+**/[Bb]in/

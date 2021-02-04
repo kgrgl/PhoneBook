@@ -15,6 +15,7 @@ C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\GeoCoordinate.NetCore.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\Humanizer.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\Microsoft.AspNetCore.TestHost.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -73,6 +74,7 @@ C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\System.IO.Pipelines.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\System.Runtime.Caching.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\xunit.abstractions.dll
@@ -235,5 +237,3 @@ C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\obj\Debug\net5.0\
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\obj\Debug\net5.0\ref\PhoneBook.IntegrationTests.dll
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\obj\Debug\net5.0\PhoneBook.IntegrationTests.pdb
 C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\obj\Debug\net5.0\PhoneBook.IntegrationTests.genruntimeconfig.cache
-C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\Microsoft.AspNetCore.TestHost.dll
-C:\Users\kgorg\git-source\PhoneBook\PhoneBook.IntegrationTests\bin\Debug\net5.0\System.IO.Pipelines.dll
