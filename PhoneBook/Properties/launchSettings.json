@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "Contacts",
+      "launchUrl": "Persons",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "test": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "Contacts",
+      "launchUrl": "Persons",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBook.UnitTests", "..\P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBook.IntegrationTests", "..\PhoneBook.IntegrationTests\PhoneBook.IntegrationTests.csproj", "{510F8CF5-633F-40CE-B309-1770A17F7EEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateaway", "..\ApiGateaway\ApiGateaway.csproj", "{80268892-2323-4AF4-A6FE-D0D520653ED3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{510F8CF5-633F-40CE-B309-1770A17F7EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{510F8CF5-633F-40CE-B309-1770A17F7EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{510F8CF5-633F-40CE-B309-1770A17F7EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80268892-2323-4AF4-A6FE-D0D520653ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80268892-2323-4AF4-A6FE-D0D520653ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80268892-2323-4AF4-A6FE-D0D520653ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80268892-2323-4AF4-A6FE-D0D520653ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
